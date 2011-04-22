@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cards type="array">
+    <card>
+        <name>Login to the e-mail application</name>
+        <description>
+h1. 描述：
+
+业务系统，希望通过动态信息份分发，以便将消息发送到指定的好友。
+
+应用系统 在UCenter注册的时候，就创建了发送队列，后续该应用系统发送用户动态或者站内消息，都是通过向属于该应用系统的队列中send消息。
+
+消息调度进程已经提前在消息队列注册回调方法，注册成功以后，应用1想队列里面发布一条动态，队列会触发消息调度进程，消息调度进程把动态消息插入mongodb，查询该用户的所有应用的好友数据，把该动态按照好友id，用户id，应用id，动态信息的方式存放到消息分发表中，一个好友增加一条记录。
+
+其他应用系统或者本系统的好友上线以后，应用系统根据需要直接在消息分发表中查询好友动态。
+
+应用系统上需要和UCenter的队列交互，包括注册回调方法和创建队列，需要安装UCenter的客户端。
+
+h1. 验收策略
+
+h2. 正常路径
+
+# 当用户发布动态信息时，用户的好友收到该用户的动态信息。
+# 当用户发布动态信息后，用户的好友由离线变为在线时收到该用户的动态信息。
+        </description>
+        <card_type url="http://localhost:8080/api/v2/projects/test/card_types/34.xml">
+            <name>Story</name>
+        </card_type>
+        <id type="integer">371</id>
+        <number type="integer">1</number>
+        <project url="http://localhost:8080/api/v2/projects/test.xml">
+            <name>Test</name>
+            <identifier>test</identifier>
+        </project>
+        <version type="integer">2</version>
+        <project_card_rank type="integer">105</project_card_rank>
+        <created_on type="datetime">2011-03-30T03:42:18Z</created_on>
+        <modified_on type="datetime">2011-04-22T01:32:38Z</modified_on>
+        <modified_by url="http://localhost:8080/api/v2/users/1.xml">
+            <name>&#39033;&#30446;&#32463;&#29702;</name>
+            <login>pm</login>
+        </modified_by>
+        <created_by url="http://localhost:8080/api/v2/users/1.xml">
+            <name>&#39033;&#30446;&#32463;&#29702;</name>
+            <login>pm</login>
+        </created_by>
+        <properties type="array">
+            <property type_description="Managed text list" hidden="false">
+                <name>Priority</name>
+                <value>Critical</value>
+            </property>
+            <property type_description="Managed text list" hidden="false">
+                <name>Story Status</name>
+                <value>Open</value>
+            </property>
+            <property type_description="Automatically generated from the team list" hidden="false">
+                <name>Owner</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Managed number list" hidden="false">
+                <name>Planning Estimate</name>
+                <value>5</value>
+            </property>
+            <property type_description="Formula" hidden="false">
+                <name>Actual Effort</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Managed text list" hidden="false">
+                <name>Type of test</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Managed text list" hidden="false">
+                <name>Testing Status</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Any number" hidden="false">
+                <name>Build completed</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Formula" hidden="false">
+                <name>Story Time-To-Life</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Date" hidden="true">
+                <name>Added to Scope On</name>
+                <value type="date">2008-01-02</value>
+            </property>
+            <property type_description="Date" hidden="true">
+                <name>Development Started On</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Date" hidden="true">
+                <name>Development Completed On</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Date" hidden="true">
+                <name>Accepted On</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>Accepted in Iteration</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>Added to Scope in Iteration</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/44.xml">
+                    <number type="integer">44</number>
+                </value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>Development Completed in Iteration</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>Development Started in Iteration</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>QA Completed in Iteration</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>Analysis Completed in Iteration</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Any card used in tree" hidden="false">
+                <name>Release</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/31.xml">
+                    <number type="integer">31</number>
+                </value>
+            </property>
+            <property type_description="Any card used in tree" hidden="false">
+                <name>Feature - Story</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/46.xml">
+                    <number type="integer">46</number>
+                </value>
+            </property>
+            <property type_description="Any card used in tree" hidden="false">
+                <name>Iteration</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/38.xml">
+                    <number type="integer">38</number>
+                </value>
+            </property>
+        </properties>
+        <tags>
+        </tags>
+    </card>
+    <card>
+        <name>Login to the e-mail application</name>
+        <description>h1. &#25551;&#36848;&#65306;
+        </description>
+        <card_type url="http://localhost:8080/api/v2/projects/test/card_types/34.xml">
+            <name>Story</name>
+        </card_type>
+        <id type="integer">360</id>
+        <number type="integer">2</number>
+        <project url="http://localhost:8080/api/v2/projects/test.xml">
+            <name>Test</name>
+            <identifier>test</identifier>
+        </project>
+        <version type="integer">2</version>
+        <project_card_rank type="integer">116</project_card_rank>
+        <created_on type="datetime">2011-03-30T03:42:18Z</created_on>
+        <modified_on type="datetime">2011-04-22T01:29:36Z</modified_on>
+        <modified_by url="http://localhost:8080/api/v2/users/1.xml">
+            <name>&#39033;&#30446;&#32463;&#29702;</name>
+            <login>pm</login>
+        </modified_by>
+        <created_by url="http://localhost:8080/api/v2/users/1.xml">
+            <name>&#39033;&#30446;&#32463;&#29702;</name>
+            <login>pm</login>
+        </created_by>
+        <properties type="array">
+            <property type_description="Managed text list" hidden="false">
+                <name>Priority</name>
+                <value>Critical</value>
+            </property>
+            <property type_description="Managed text list" hidden="false">
+                <name>Story Status</name>
+                <value>Accepted</value>
+            </property>
+            <property type_description="Automatically generated from the team list" hidden="false">
+                <name>Owner</name>
+                <value nil="true"></value>
+            </property>
+            <property type_description="Managed number list" hidden="false">
+                <name>Planning Estimate</name>
+                <value>1</value>
+            </property>
+            <property type_description="Formula" hidden="false">
+                <name>Actual Effort</name>
+                <value>1.00</value>
+            </property>
+            <property type_description="Managed text list" hidden="false">
+                <name>Type of test</name>
+                <value>None</value>
+            </property>
+            <property type_description="Managed text list" hidden="false">
+                <name>Testing Status</name>
+                <value>Testing Complete</value>
+            </property>
+            <property type_description="Any number" hidden="false">
+                <name>Build completed</name>
+                <value>5</value>
+            </property>
+            <property type_description="Formula" hidden="false">
+                <name>Story Time-To-Life</name>
+                <value>794</value>
+            </property>
+            <property type_description="Date" hidden="true">
+                <name>Added to Scope On</name>
+                <value type="date">2008-01-02</value>
+            </property>
+            <property type_description="Date" hidden="true">
+                <name>Development Started On</name>
+                <value type="date">2008-01-16</value>
+            </property>
+            <property type_description="Date" hidden="true">
+                <name>Development Completed On</name>
+                <value type="date">2008-01-17</value>
+            </property>
+            <property type_description="Date" hidden="true">
+                <name>Accepted On</name>
+                <value type="date">2010-03-06</value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>Accepted in Iteration</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/37.xml">
+                    <number type="integer">37</number>
+                </value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>Added to Scope in Iteration</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/44.xml">
+                    <number type="integer">44</number>
+                </value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>Development Completed in Iteration</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/34.xml">
+                    <number type="integer">34</number>
+                </value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>Development Started in Iteration</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/34.xml">
+                    <number type="integer">34</number>
+                </value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>QA Completed in Iteration</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/36.xml">
+                    <number type="integer">36</number>
+                </value>
+            </property>
+            <property type_description="Card" hidden="false">
+                <name>Analysis Completed in Iteration</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/44.xml">
+                    <number type="integer">44</number>
+                </value>
+            </property>
+            <property type_description="Any card used in tree" hidden="false">
+                <name>Release</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/31.xml">
+                    <number type="integer">31</number>
+                </value>
+            </property>
+            <property type_description="Any card used in tree" hidden="false">
+                <name>Feature - Story</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/49.xml">
+                    <number type="integer">49</number>
+                </value>
+            </property>
+            <property type_description="Any card used in tree" hidden="false">
+                <name>Iteration</name>
+                <value url="http://localhost:8080/api/v2/projects/test/cards/34.xml">
+                    <number type="integer">34</number>
+                </value>
+            </property>
+        </properties>
+        <tags>
+        </tags>
+    </card>
+</cards>

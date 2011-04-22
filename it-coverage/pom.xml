@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.thoughtworks.maven</groupId>
+    <artifactId>it-coverage</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>com.thoughtworks.maven</groupId>
+        <artifactId>it-coverage-all</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+
+    <!--<distributionManagement>-->
+    <!--<snapshotRepository>-->
+    <!--<id>internal</id>-->
+    <!--<url>http://10.46.144.222:9999/archiva/repository/internal</url>-->
+    <!--</snapshotRepository>-->
+    <!--</distributionManagement>-->
+
+    <!--<repositories>-->
+    <!--<repository>-->
+    <!--<id>internal</id>-->
+    <!--<name>Archiva Managed Internal Repository</name>-->
+    <!--<url>http://10.46.144.222:9999/archiva/repository/internal</url>-->
+    <!--<releases>-->
+    <!--<enabled>true</enabled>-->
+    <!--</releases>-->
+    <!--<snapshots>-->
+    <!--<enabled>true</enabled>-->
+    <!--</snapshots>-->
+    <!--</repository>-->
+    <!--</repositories>-->
+
+    <!--<pluginRepositories>-->
+    <!--<pluginRepository>-->
+    <!--<id>archiva</id>-->
+    <!--<url>http://10.46.144.222:9999/archiva/repository/internal/</url>-->
+    <!--<releases>-->
+    <!--<enabled>true</enabled>-->
+    <!--</releases>-->
+    <!--<snapshots>-->
+    <!--<enabled>true</enabled>-->
+    <!--</snapshots>-->
+    <!--</pluginRepository>-->
+    <!--</pluginRepositories>-->
+
+    <dependencies>
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-client</artifactId>
+            <version>1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>xstream</groupId>
+            <artifactId>xstream</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version>
+        </dependency>
+    </dependencies>
+</project>

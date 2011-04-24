@@ -1,4 +1,4 @@
-package com.thoughtworks.maven.domain;
+package com.thoughtworks.itcoverage.domain;
 
 public class Property {
     String name;

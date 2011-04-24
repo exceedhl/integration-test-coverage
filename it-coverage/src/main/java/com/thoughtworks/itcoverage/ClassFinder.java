@@ -1,4 +1,4 @@
-package com.thoughtworks.maven;
+package com.thoughtworks.itcoverage;
 
 import java.io.File;
 import java.net.MalformedURLException;

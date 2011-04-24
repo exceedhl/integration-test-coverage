@@ -1,7 +1,7 @@
-package com.thoughtworks.maven;
+package com.thoughtworks.itcoverage;
 
-import com.thoughtworks.maven.domain.TestCase;
-import com.thoughtworks.maven.domain.TestClass;
+import com.thoughtworks.itcoverage.domain.TestCase;
+import com.thoughtworks.itcoverage.domain.TestClass;
 import org.junit.Test;
 
 import java.io.File;

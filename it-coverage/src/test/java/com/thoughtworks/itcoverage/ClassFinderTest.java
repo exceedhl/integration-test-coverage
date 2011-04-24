@@ -1,4 +1,4 @@
-package com.thoughtworks.maven;
+package com.thoughtworks.itcoverage;
 
 import org.junit.Test;
 
@@ -12,8 +12,8 @@ public class ClassFinderTest extends BaseClassFinderTest {
     public void shouldFindAllClassesByPattern() throws MalformedURLException {
         List<Class> classes = new ClassFinder().findAll(getTestClassesDir(), ".*Story.*StubTest.*");
         assertEquals(2, classes.size());
-        assertEquals("com.thoughtworks.maven.Stub.Story1StubTest", classes.get(0).getName());
-        assertEquals("com.thoughtworks.maven.Stub.Story2StubTest", classes.get(1).getName());
+        assertEquals("com.thoughtworks.itcoverage.stub.Story1StubTest", classes.get(0).getName());
+        assertEquals("com.thoughtworks.itcoverage.stub.Story2StubTest", classes.get(1).getName());
     }
 
 }

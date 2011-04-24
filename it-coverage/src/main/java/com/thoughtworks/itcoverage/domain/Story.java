@@ -1,4 +1,4 @@
-package com.thoughtworks.maven.domain;
+package com.thoughtworks.itcoverage.domain;
 
 import java.util.ArrayList;
 import java.util.List;

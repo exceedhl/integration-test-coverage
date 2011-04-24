@@ -1,7 +1,7 @@
-package com.thoughtworks.maven;
+package com.thoughtworks.itcoverage;
 
-import com.thoughtworks.maven.domain.CoverageResult;
-import com.thoughtworks.maven.domain.StoryCoverage;
+import com.thoughtworks.itcoverage.domain.CoverageResult;
+import com.thoughtworks.itcoverage.domain.StoryCoverage;
 import org.junit.Test;
 
 import java.net.MalformedURLException;

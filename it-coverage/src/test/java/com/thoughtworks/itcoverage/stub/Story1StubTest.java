@@ -1,6 +1,6 @@
-package com.thoughtworks.maven.Stub;
+package com.thoughtworks.itcoverage.stub;
 
-import com.thoughtworks.maven.annotation.Story;
+import com.thoughtworks.itcoverage.annotation.Story;
 import org.junit.Test;
 
 @Story(1)

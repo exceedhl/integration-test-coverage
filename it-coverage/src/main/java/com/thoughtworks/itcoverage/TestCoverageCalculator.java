@@ -1,10 +1,9 @@
-package com.thoughtworks.maven;
+package com.thoughtworks.itcoverage;
 
-import com.thoughtworks.maven.domain.*;
+import com.thoughtworks.itcoverage.domain.*;
 
 import java.net.MalformedURLException;
 import java.util.HashMap;
-import java.util.List;
 
 public class TestCoverageCalculator {
     private StoryFinder storyFinder;

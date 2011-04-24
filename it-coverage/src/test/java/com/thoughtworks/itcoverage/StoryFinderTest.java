@@ -1,7 +1,7 @@
-package com.thoughtworks.maven;
+package com.thoughtworks.itcoverage;
 
-import com.thoughtworks.maven.domain.Story;
-import com.thoughtworks.maven.domain.StoryList;
+import com.thoughtworks.itcoverage.domain.Story;
+import com.thoughtworks.itcoverage.domain.StoryList;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;

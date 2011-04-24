@@ -1,4 +1,4 @@
-package com.thoughtworks.maven.annotation;
+package com.thoughtworks.itcoverage.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

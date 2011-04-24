@@ -1,10 +1,10 @@
-package com.thoughtworks.maven;
+package com.thoughtworks.itcoverage;
 
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.WebResource;
-import com.thoughtworks.maven.domain.Properties;
-import com.thoughtworks.maven.domain.Story;
-import com.thoughtworks.maven.domain.StoryList;
+import com.thoughtworks.itcoverage.domain.Properties;
+import com.thoughtworks.itcoverage.domain.Story;
+import com.thoughtworks.itcoverage.domain.StoryList;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.mapper.CannotResolveClassException;
 import com.thoughtworks.xstream.mapper.MapperWrapper;

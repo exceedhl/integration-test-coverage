@@ -1,0 +1,36 @@
+This small utility reads story cards information from Mingle and test
+cases information from junit tests, generate test coverage information
+for them. 
+
+To use it, you have to add it-coverage-1.0-SNAPSHOT.jar to your test
+project, then use @Story(storyNumber) to annotate your test class or
+test case to build the relationship between your story card and test
+cases. For example:
+
+@Test
+@Story(2)
+public void test1() {
+}
+
+or 
+
+@Story(1)
+public class Story1StubTest {
+    @Test
+    public void test1() {
+    }
+
+    @Test
+    public void test2() {
+    }
+}
+
+After this, you can use command like below to generate a report:
+
+java -DresourceUrl="http://localhost:9999/storiesWithAC.xml" \
+     -Dusername="" \
+     -Dpassword="" \
+     -DtestClassesDir="/Users/huangliang/code/integration-test-coverage/it-coverage/target/test-classes/" \
+     -DtestPattern=".*Story.*StubTest.*" \
+     -DreportOutputDir="/Users/huangliang/code/integration-test-coverage/it-coverage/target/" \
+     -jar ./it-coverage/target/it-coverage-1.0-SNAPSHOT-jar-with-dependencies.jar

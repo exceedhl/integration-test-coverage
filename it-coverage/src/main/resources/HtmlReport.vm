@@ -1,0 +1,35 @@
+<html>
+<head><title>Integration Test Results</title></head>
+
+<body>
+
+<h1>Stories and Testcases</h1>
+
+#foreach( $storyCoverage in $result.storyCoverages )
+<h2>$storyCoverage.story.name</h2>
+
+<p>Coverage is: $storyCoverage.coverage</p>
+
+<p>AC</p>
+<ol>
+    #foreach( $ac in $storyCoverage.story.acceptanceCriteria )
+    <li>$ac</li>
+    #end
+</ol>
+
+<p>Tests</p>
+<ol>
+    #foreach( $testcase in $storyCoverage.testCases )
+    <li>${testcase.testClass.name}.${testcase.name}</li>
+    #end
+</ol>
+#end
+
+<h1>Independent Testcases</h1>
+#foreach( $testcase in $result.independtantTestCases )
+<ol>
+    <li>${testcase.testClass.name}.${testcase.name}</li>
+</ol>
+#end
+</body>
+</html>

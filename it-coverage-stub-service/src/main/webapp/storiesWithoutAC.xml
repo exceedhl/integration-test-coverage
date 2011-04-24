@@ -3,7 +3,7 @@
     <card>
         <name>Login to the e-mail application</name>
         <description>
-desc with no ACs
+            desc with no ACs
         </description>
         <card_type url="http://localhost:8080/api/v2/projects/test/card_types/34.xml">
             <name>Story</name>

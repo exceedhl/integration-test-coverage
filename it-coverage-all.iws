@@ -193,10 +193,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestCoverageCalculatorTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/TestCoverageCalculatorTest.java">
+      <file leaf-file-name="HtmlReporter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/HtmlReporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="19" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0">
+            <state line="30" column="36" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Template.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/Template.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="16" selection-start="735" selection-end="735" vertical-scroll-proportion="-7.24">
               <folding />
             </state>
           </provider>
@@ -205,80 +216,75 @@
       <file leaf-file-name="TestCoverageCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/TestCoverageCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="24" selection-start="1602" selection-end="1602" vertical-scroll-proportion="0.0">
+            <state line="16" column="21" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Story1StubTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HtmlReportTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/HtmlReportTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="88" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="4" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="5" selection-start="626" selection-end="626" vertical-scroll-proportion="0.244713">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Story1StubTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/stub/Story1StubTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.45470086">
+            <state line="5" column="0" selection-start="120" selection-end="246" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoverageResult.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/domain/CoverageResult.java">
+      <file leaf-file-name="Story2StubTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/stub/Story2StubTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+            <state line="8" column="14" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/it-coverage-stub-service/pom.xml">
+      <file leaf-file-name="HtmlReport.vm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/it-coverage/src/main/resources/HtmlReport.vm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="6" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
+            <state line="13" column="16" selection-start="249" selection-end="249" vertical-scroll-proportion="-8.821428">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Story.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/domain/Story.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="19" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestFinderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/TestFinderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="45" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XStreamTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/XStreamTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseClassFinderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/BaseClassFinderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="7" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoryCoverage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/domain/StoryCoverage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="27" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="7" column="7" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -302,15 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/it-coverage-stub-service/src/main/webapp/storiesWithoutAC.xml" />
-        <option value="$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/maven/StoryFinderTest.java" />
-        <option value="$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/maven/ACParser.java" />
-        <option value="$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/maven/ACParserTest.java" />
-        <option value="$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/maven/BaseClassFinderTest.java" />
-        <option value="$PROJECT_DIR$/it-coverage-stub-service/src/main/webapp/storiesWithAC.xml" />
-        <option value="$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/maven/TestFinderTest.java" />
-        <option value="$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/maven/TestFinder.java" />
-        <option value="$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/maven/domain/Story.java" />
         <option value="$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/maven/TestCoverageCalculator.java" />
         <option value="$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/maven/domain/StoryCoverage.java" />
         <option value="$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/maven/domain/CoverageResult.java" />
@@ -318,6 +315,15 @@
         <option value="$PROJECT_DIR$/it-coverage-stub-service/pom.xml" />
         <option value="$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/TestCoverageCalculator.java" />
         <option value="$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/stub/Story1StubTest.java" />
+        <option value="$PROJECT_DIR$/it-coverage/src/main/resources/HtmlResultTemplate.txt" />
+        <option value="$PROJECT_DIR$/it-coverage/src/main/resources/HtmlResultTemplate.html" />
+        <option value="$PROJECT_DIR$/it-coverage/pom.xml" />
+        <option value="$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/Main.java" />
+        <option value="$PROJECT_DIR$/it-coverage/src/main/resources/HtmlReport.vm" />
+        <option value="$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/HtmlReporter.java" />
+        <option value="$PROJECT_DIR$/test.sh" />
+        <option value="$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/HtmlReportTest.java" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -408,98 +414,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="integration-test-coverage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="it-coverage-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration-test-coverage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="it-coverage-stub-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="it-coverage-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration-test-coverage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="it-coverage-stub-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="it-coverage-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration-test-coverage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="it-coverage-stub-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="it-coverage-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration-test-coverage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="it-coverage-stub-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -647,6 +561,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="it-coverage-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration-test-coverage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="it-coverage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -704,16 +644,21 @@
     <view id="ClasspathPane" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="preferences.externalResources" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
@@ -721,76 +666,11 @@
       <recent name="$PROJECT_DIR$/it-coverage-stub-service/src/main/webapp" />
     </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks.itcoverage.HtmlReporter" />
       <recent name="com.thoughtworks.maven.TestFinderTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCoverageCalculatorTest.shouldCalculateTestCoverageForAllStories">
-    <configuration default="false" name="StoryFinderTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="it-coverage" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks.itcoverage" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.itcoverage.StoryFinderTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ACParserTest.shouldParseOutAllACFromStoryDescription" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="it-coverage" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks.itcoverage" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.itcoverage.ACParserTest" />
-      <option name="METHOD_NAME" value="shouldParseOutAllACFromStoryDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ACParserTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="it-coverage" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks.itcoverage" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.itcoverage.ACParserTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.HtmlReportTest">
     <configuration default="false" name="TestCoverageCalculatorTest.shouldCalculateTestCoverageForAllStories" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="it-coverage" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -833,6 +713,82 @@
       <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HtmlReportTest.shouldGenerateHtmlReport" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="it-coverage" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.itcoverage" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.itcoverage.HtmlReportTest" />
+      <option name="METHOD_NAME" value="shouldGenerateHtmlReport" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53388" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.itcoverage.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="it-coverage" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53549" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HtmlReportTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="it-coverage" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.itcoverage" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.itcoverage.HtmlReportTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54536" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -910,11 +866,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StoryFinderTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ACParserTest.shouldParseOutAllACFromStoryDescription" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ACParserTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestCoverageCalculatorTest.shouldCalculateTestCoverageForAllStories" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestFinderTest.shouldBeAbleToFindAllTestsUnderSpecificPlace" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestCoverageCalculatorTest.shouldCalculateTestCoverageForAllStories" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestFinderTest.shouldBeAbleToFindAllTestsUnderSpecificPlace" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HtmlReportTest.shouldGenerateHtmlReport" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HtmlReportTest" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -944,6 +900,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -974,19 +931,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908257" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39908257" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939074" sideWeight="0.6712538" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939074" sideWeight="0.60091746" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1083,104 +1040,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/it-coverage-stub-service/src/main/webapp/storiesWithAC.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="32" selection-start="6580" selection-end="6580" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/it-coverage-stub-service/src/main/webapp/storiesWithoutAC.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="11" selection-start="5807" selection-end="5807" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/stub/Story2StubTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/TestFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="35" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/StoryFinderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="51" selection-start="848" selection-end="949" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/ClassFinderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/TestCoverageCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/it-coverage-stub-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/domain/Story.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="19" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/TestFinderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="45" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/XStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="439" selection-end="776" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/BaseClassFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+        <state line="11" column="30" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/domain/CoverageResult.java">
+    <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/domain/Story.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+        <state line="11" column="35" selection-start="220" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/domain/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/domain/StoryCoverage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+        <state line="9" column="23" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/domain/CoverageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="48" selection-start="202" selection-end="223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/Template.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="735" selection-end="735" vertical-scroll-proportion="-7.24">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="7" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/TestCoverageCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="24" selection-start="1602" selection-end="1602" vertical-scroll-proportion="0.0">
+        <state line="16" column="21" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/it-coverage/src/main/resources/HtmlReport.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="16" selection-start="249" selection-end="249" vertical-scroll-proportion="-8.821428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/stub/Story2StubTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/stub/Story1StubTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.45470086">
+        <state line="5" column="0" selection-start="120" selection-end="246" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/it-coverage/src/test/java/com/thoughtworks/itcoverage/HtmlReportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="88" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/it-coverage/src/main/java/com/thoughtworks/itcoverage/HtmlReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="36" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="5" selection-start="626" selection-end="626" vertical-scroll-proportion="0.244713">
           <folding />
         </state>
       </provider>
@@ -1198,6 +1171,11 @@
               </list>
             </option>
           </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions />
         </settings>
       </state>
       <state key="FacetStructureConfigurable.UI">
@@ -1257,6 +1235,11 @@
               </list>
             </option>
           </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions />
         </settings>
       </state>
     </states>

@@ -15,8 +15,9 @@ public class Main {
         String reportOutputDir = System.getProperty("reportOutputDir");
 
         StoryFinder storyFinder = new StoryFinder(resourceUrl, username, password, new ACParser());
-        TestCoverageCalculator calculator = new TestCoverageCalculator(storyFinder, new TestFinder(testClassesDir, testPattern));
-        HtmlReporter htmlReporter = new HtmlReporter(calculator, reportOutputDir);
+        TestCoverageCalculator calculator = new TestCoverageCalculator(storyFinder,
+                new TestFinder(testClassesDir, testPattern));
+        HtmlReporter htmlReporter = new HtmlReporter(calculator, new File(reportOutputDir));
         htmlReporter.generateReport();
     }
 }

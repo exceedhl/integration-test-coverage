@@ -50,39 +50,6 @@
             </plugin>
         </plugins>
     </build>
-    <!--<distributionManagement>-->
-    <!--<snapshotRepository>-->
-    <!--<id>internal</id>-->
-    <!--<url>http://10.46.144.222:9999/archiva/repository/internal</url>-->
-    <!--</snapshotRepository>-->
-    <!--</distributionManagement>-->
-
-    <!--<repositories>-->
-    <!--<repository>-->
-    <!--<id>internal</id>-->
-    <!--<name>Archiva Managed Internal Repository</name>-->
-    <!--<url>http://10.46.144.222:9999/archiva/repository/internal</url>-->
-    <!--<releases>-->
-    <!--<enabled>true</enabled>-->
-    <!--</releases>-->
-    <!--<snapshots>-->
-    <!--<enabled>true</enabled>-->
-    <!--</snapshots>-->
-    <!--</repository>-->
-    <!--</repositories>-->
-
-    <!--<pluginRepositories>-->
-    <!--<pluginRepository>-->
-    <!--<id>archiva</id>-->
-    <!--<url>http://10.46.144.222:9999/archiva/repository/internal/</url>-->
-    <!--<releases>-->
-    <!--<enabled>true</enabled>-->
-    <!--</releases>-->
-    <!--<snapshots>-->
-    <!--<enabled>true</enabled>-->
-    <!--</snapshots>-->
-    <!--</pluginRepository>-->
-    <!--</pluginRepositories>-->
 
     <dependencies>
         <dependency>
@@ -104,6 +71,17 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.8.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>qdox</groupId>
+            <artifactId>qdox</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.0.1</version>
         </dependency>
     </dependencies>
 </project>

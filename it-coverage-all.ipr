@@ -3,6 +3,18 @@
   <component name="AntConfiguration">
     <defaultAnt bundledAnt="true" />
   </component>
+  <component name="ArtifactManager">
+    <artifact type="exploded-war" name="it-coverage-stub-service:it-coverage-stub-service exploded">
+      <root id="root">
+        <element id="javaee-facet-resources" facet="it-coverage-stub-service/web/it-coverage-stub-service" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="it-coverage-stub-service" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+  </component>
   <component name="CodeStyleManager">
     <option name="USE_DEFAULT_CODE_STYLE_SCHEME" value="true" />
     <option name="CODE_STYLE_SCHEME" value="" />
@@ -30,11 +42,27 @@
     <option name="OPEN_IN_BROWSER" value="false" />
     <option name="OUTPUT_DIRECTORY" />
   </component>
+  <component name="IdProvider" IDEtalkID="841C8C2CA0DCF38AC10C7E7D6679DB7F" />
   <component name="ImportConfiguration">
     <option name="VENDOR" />
     <option name="RELEASE_TAG" />
     <option name="LOG_MESSAGE" />
     <option name="CHECKOUT_AFTER_IMPORT" value="true" />
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profiles>
+      <profile version="1.0" is_locked="false">
+        <option name="myName" value="Project Default" />
+        <option name="myLocal" value="false" />
+        <inspection_tool class="IgnoreResultOfCall" enabled="false" level="WARNING" enabled_by_default="false">
+          <option name="m_reportAllNonLibraryCalls" value="false" />
+          <option name="callCheckString" value="java.io.InputStream,read,java.io.InputStream,skip,java.lang.StringBuffer,toString,java.lang.StringBuilder,toString,java.lang.String,.*,java.math.BigInteger,.*,java.math.BigDecimal,.*,java.net.InetAddress,.*,java.io.File,.*,java.lang.Object,equals|hashCode" />
+        </inspection_tool>
+      </profile>
+    </profiles>
+    <option name="PROJECT_PROFILE" value="Project Default" />
+    <option name="USE_PROJECT_PROFILE" value="true" />
+    <version value="1.0" />
   </component>
   <component name="JUnitProjectSettings">
     <option name="TEST_RUNNER" value="UI" />
@@ -182,6 +210,7 @@
       <module fileurl="file://$PROJECT_DIR$/it-coverage/it-coverage.iml" filepath="$PROJECT_DIR$/it-coverage/it-coverage.iml" />
       <module fileurl="file://$PROJECT_DIR$/it-coverage-all.iml" filepath="$PROJECT_DIR$/it-coverage-all.iml" />
       <module fileurl="file://$PROJECT_DIR$/it-coverage-stub-service/it-coverage-stub-service.iml" filepath="$PROJECT_DIR$/it-coverage-stub-service/it-coverage-stub-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcoverage-maven-plugin/itcoverage-maven-plugin.iml" filepath="$PROJECT_DIR$/itcoverage-maven-plugin/itcoverage-maven-plugin.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
@@ -191,5 +220,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
   </component>
+  <component name="WebServicesPlugin" addRequiredLibraries="true" />
 </project>
 

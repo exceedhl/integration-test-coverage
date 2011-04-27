@@ -6,7 +6,7 @@
 <h1>Stories and Testcases</h1>
 
 #foreach( $storyCoverage in $result.storyCoverages )
-<h2>$storyCoverage.story.name</h2>
+<h2>$storyCoverage.story.number $storyCoverage.story.name</h2>
 
 <p>Coverage is: $storyCoverage.coverage</p>
 
@@ -26,10 +26,10 @@
 #end
 
 <h1>Independent Testcases</h1>
-#foreach( $testcase in $result.independtantTestCases )
 <ol>
+    #foreach( $testcase in $result.independtantTestCases )
     <li>${testcase.testClass.name}.${testcase.name}</li>
+    #end
 </ol>
-#end
 </body>
 </html>

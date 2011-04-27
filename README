@@ -7,30 +7,44 @@ project, then use @Story(storyNumber) to annotate your test class or
 test case to build the relationship between your story card and test
 cases. For example:
 
-@Test
-@Story(2)
+/**
+ * @story 2
+ */
 public void test1() {
 }
 
 or 
 
-@Story(1)
+/**
+ * @story 2
+ */
 public class Story1StubTest {
-    @Test
     public void test1() {
     }
 
-    @Test
     public void test2() {
     }
 }
 
-After this, you can use command like below to generate a report:
+Then if your mingle story card has the all the acceptance criteria at the end of the description, formatted like this:
 
-java -DresourceUrl="http://localhost:9999/storiesWithAC.xml" \
-     -Dusername="" \
-     -Dpassword="" \
-     -DtestClassesDir="/Users/huangliang/code/integration-test-coverage/it-coverage/target/test-classes/" \
-     -DtestPattern=".*Story.*StubTest.*" \
-     -DreportOutputDir="/Users/huangliang/code/integration-test-coverage/it-coverage/target/" \
-     -jar ./it-coverage/target/it-coverage-1.0-SNAPSHOT-jar-with-dependencies.jar
+h1. 验收策略
+
+# 正常路径1
+# 正常路径2
+# 异常路径1
+...
+
+You can then use the maven plugin to generate a html report:
+
+<plugin>
+    <groupId>com.thoughtworks.maven</groupId>
+    <artifactId>itcoverage-maven-plugin</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <configuration>
+        <resourceUrl>http://localhost:8080/api/v2/projects/testProject/cards.xml?page=all&amp;filters[]=[Type][is][Story]&amp;sort=number&amp;order=ASC</resourceUrl>
+        <username>username</username>
+        <password>password</password>
+        <testPattern>".*Test.*"</testPattern>
+    </configuration>
+</plugin>

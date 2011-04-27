@@ -8,11 +8,13 @@ import java.net.MalformedURLException;
 
 import static junit.framework.Assert.assertEquals;
 
-public class TestCoverageCalculatorTest extends BaseClassFinderTest {
+public class TestCoverageCalculatorTest extends BaseTestFinderTest {
     @Test
     public void shouldCalculateTestCoverageForAllStories() throws MalformedURLException {
-        StoryFinder storyFinder = new StoryFinder("http://localhost:9999/storiesWithAC.xml", "whatever", "whatever", new ACParser());
-        TestCoverageCalculator calculator = new TestCoverageCalculator(storyFinder, new TestFinder(getTestClassesDir(), STORY_STUB_TEST_PATTERN));
+        StoryFinder storyFinder = new StoryFinder("http://localhost:5555/storiesWithAC.xml", "whatever", "whatever",
+                new ACParser());
+        TestCoverageCalculator calculator = new TestCoverageCalculator(storyFinder,
+                new TestFinder(getTestSourceDir(), STORY_STUB_TEST_PATTERN));
         CoverageResult result = calculator.calculate();
         assertEquals(2, result.getStoryCoverages().size());
         assertEquals(1, result.getIndependtantTestCases().size());

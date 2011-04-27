@@ -9,7 +9,8 @@ import static junit.framework.Assert.assertEquals;
 public class StoryFinderTest {
     @Test
     public void shouldBeAbleToFindAllStoryFromMingle() {
-        StoryFinder storyFinder = new StoryFinder("http://localhost:9999/storiesWithAC.xml", "whatever", "whatever", new ACParser());
+        StoryFinder storyFinder = new StoryFinder("http://localhost:5555/storiesWithAC.xml", "whatever", "whatever",
+                new ACParser());
         StoryList stories = storyFinder.findAll();
         assertEquals(2, stories.size());
         Story story1 = stories.get(0);
@@ -20,7 +21,8 @@ public class StoryFinderTest {
 
     @Test
     public void shouldHandleStoriesWithoutAC() {
-        StoryFinder storyFinder = new StoryFinder("http://localhost:9999/storiesWithoutAC.xml", "whatever", "whatever", new ACParser());
+        StoryFinder storyFinder = new StoryFinder("http://localhost:5555/storiesWithoutAC.xml", "whatever", "whatever",
+                new ACParser());
         StoryList stories = storyFinder.findAll();
         assertEquals(1, stories.size());
         assertEquals(0, stories.get(0).getAcceptanceCriteria().size());

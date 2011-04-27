@@ -4,6 +4,7 @@ import com.thoughtworks.itcoverage.domain.*;
 
 import java.net.MalformedURLException;
 import java.util.HashMap;
+import java.util.List;
 
 public class TestCoverageCalculator {
     private StoryFinder storyFinder;
@@ -35,8 +36,10 @@ public class TestCoverageCalculator {
         return coverageResult;
     }
 
-    private void findTestCasesForStory(CoverageResult coverageResult, HashMap<Integer, StoryCoverage> map) throws MalformedURLException {
-        for (TestClass testClass : testFinder.findAll()) {
+    private void findTestCasesForStory(CoverageResult coverageResult, HashMap<Integer, StoryCoverage> map)
+            throws MalformedURLException {
+        List<TestClass> testClasses = testFinder.findAllByJavaDoc();
+        for (TestClass testClass : testClasses) {
             for (TestCase testCase : testClass.getTestCases()) {
                 Integer storyNumber = getStoryNumber(testCase);
                 if (map.containsKey(storyNumber)) {

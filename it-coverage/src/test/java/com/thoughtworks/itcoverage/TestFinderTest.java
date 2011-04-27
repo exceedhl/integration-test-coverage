@@ -8,23 +8,24 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.util.List;
 
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertNull;
+import static junit.framework.Assert.*;
 
-public class TestFinderTest extends BaseClassFinderTest {
+public class TestFinderTest extends BaseTestFinderTest {
 
     @Test
     public void shouldBeAbleToFindAllTestsUnderSpecificPlace() throws MalformedURLException {
-        File testClassesDir = getTestClassesDir();
+        File testClassesDir = getTestSourceDir();
         TestFinder testFinder = new TestFinder(testClassesDir, STORY_STUB_TEST_PATTERN);
-        List<TestClass> tests = testFinder.findAll();
-        assertEquals(2, tests.size());
-        assertEquals("Story1StubTest", tests.get(0).getName());
-        assertEquals((Object) 1, tests.get(0).getStoryNumber());
-        assertEquals("Story2StubTest", tests.get(1).getName());
-        assertEquals(null, tests.get(1).getStoryNumber());
+        List<TestClass> tests = testFinder.findAllByJavaDoc();
 
-        List<TestCase> testCases = tests.get(0).getTestCases();
+        assertEquals(2, tests.size());
+        assertContains(tests, "Story1StubTest");
+        assertContains(tests, "Story2StubTest");
+
+        TestClass test1 = getTestByName(tests, "Story1StubTest");
+        assertEquals((Object) 1, test1.getStoryNumber());
+
+        List<TestCase> testCases = test1.getTestCases();
         assertEquals(2, testCases.size());
         assertEquals(null, testCases.get(0).getStoryNumber());
         assertEquals((Object) 1, testCases.get(0).getTestClass().getStoryNumber());
@@ -32,12 +33,32 @@ public class TestFinderTest extends BaseClassFinderTest {
         assertEquals(null, testCases.get(1).getStoryNumber());
         assertEquals("test2", testCases.get(1).getName());
 
-        List<TestCase> testCases2 = tests.get(1).getTestCases();
+        TestClass test2 = getTestByName(tests, "Story2StubTest");
+        assertEquals(null, test2.getStoryNumber());
+        List<TestCase> testCases2 = test2.getTestCases();
+
         assertEquals(3, testCases2.size());
         assertEquals((Object) 2, testCases2.get(0).getStoryNumber());
         assertEquals((Object) 2, testCases2.get(1).getStoryNumber());
-        assertNull(testCases2.get(2).getStoryNumber()
-        );
+        assertNull(testCases2.get(2).getStoryNumber());
     }
 
+    private TestClass getTestByName(List<TestClass> tests, String testClassName) {
+        for (TestClass c : tests) {
+            if (c.getName().equals(testClassName)) {
+                return c;
+            }
+        }
+        return null;
+    }
+
+    private void assertContains(List<TestClass> tests, String testClassName) {
+        boolean isContained = false;
+        for (TestClass c : tests) {
+            if (c.getName().equals(testClassName)) {
+                isContained = true;
+            }
+        }
+        assertTrue(isContained);
+    }
 }

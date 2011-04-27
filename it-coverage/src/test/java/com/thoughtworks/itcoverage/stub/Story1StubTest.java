@@ -1,15 +1,17 @@
 package com.thoughtworks.itcoverage.stub;
 
-import com.thoughtworks.itcoverage.annotation.Story;
-import org.junit.Test;
+import junit.framework.TestCase;
 
-@Story(1)
-public class Story1StubTest {
-    @Test
+/**
+ * @story 1
+ */
+public class Story1StubTest extends TestCase {
     public void test1() {
     }
 
-    @Test
     public void test2() {
+    }
+
+    public void notTest() {
     }
 }
